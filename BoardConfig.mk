@@ -17,8 +17,6 @@ include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
 include device/yu/lettuce/board/*.mk
 
-# Assertions
-TARGET_BOARD_INFO_FILE := device/yu/lettuce/board-info.txt
 
 # Inherit from proprietary files
 include vendor/yu/lettuce/BoardConfigVendor.mk
