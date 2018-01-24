@@ -6,5 +6,11 @@
   {
     "repository": "android_kernel_cyanogen_msm8916",
     "target_path": "kernel/cyanogen/msm8916"
+  },
+  {
+    "remote":"github",
+    "repository": "yu-community-os/android_vendor_volte",
+    "target_path": "vendor/volte"
+    "revision":"cyos-7.1"
   }
 ]

@@ -14,13 +14,16 @@
 
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+TARGET_ARCH := arm64
+TARGET_DENSITY := xhdpi
+IS_PHONE := true
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := lineage_lettuce
+PRODUCT_NAME := aosp_lettuce
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := lettuce
 
